@@ -1,9 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T16:58:38.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.0" etag="erFeg8rgu7TXHNlrBgdk" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T17:48:10.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4Nh_j2gSm1xMfBeiYT2U" version="24.3.0" type="github">
   <diagram name="Page-1" id="6Ok6maOXptIN6Z3Hu8dl">
-    <mxGraphModel>
+    <mxGraphModel dx="724" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i7xS8jpJTbWO4TMDxhl_-1" value="User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="48" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="i7xS8jpJTbWO4TMDxhl_-2" value="RestaurantReservationSystem" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="207" y="122" width="226" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="i7xS8jpJTbWO4TMDxhl_-3" value="Restaurant" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="278" y="224" width="92" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="i7xS8jpJTbWO4TMDxhl_-4" value="Make Reservation" style="curved=1;startArrow=none;endArrow=block;exitX=-0.004329482714335124;exitY=0.6272905288452452;entryX=0.06495022182434193;entryY=-0.0060605713815400095;rounded=0;" edge="1" parent="1" source="i7xS8jpJTbWO4TMDxhl_-1" target="i7xS8jpJTbWO4TMDxhl_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7xS8jpJTbWO4TMDxhl_-5" value="Cancel Reservation" style="curved=1;startArrow=none;endArrow=block;exitX=-0.004329482714335124;exitY=0.7467240243567945;entryX=0.2839277674663972;entryY=-0.0060605713815400095;rounded=0;" edge="1" parent="1" source="i7xS8jpJTbWO4TMDxhl_-1" target="i7xS8jpJTbWO4TMDxhl_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="171" y="88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7xS8jpJTbWO4TMDxhl_-6" value="View Reservation" style="curved=1;startArrow=none;endArrow=block;exitX=0.47016201317235345;exitY=1.0121212583599668;entryX=0.5012721002629373;entryY=-0.0060605713815400095;rounded=0;" edge="1" parent="1" source="i7xS8jpJTbWO4TMDxhl_-1" target="i7xS8jpJTbWO4TMDxhl_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7xS8jpJTbWO4TMDxhl_-7" value="Provide Feedback" style="curved=1;startArrow=none;endArrow=block;exitX=0.9910481373469034;exitY=0.7663892148934213;entryX=0.7116798195987587;entryY=-0.0060605713815400095;rounded=0;" edge="1" parent="1" source="i7xS8jpJTbWO4TMDxhl_-1" target="i7xS8jpJTbWO4TMDxhl_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7xS8jpJTbWO4TMDxhl_-8" value="Manage Tables" style="curved=1;startArrow=none;endArrow=block;exitX=0.4965353012084961;exitY=-0.012121142763080019;entryX=0.5061989634439491;entryY=1.0060606869784268;rounded=0;" edge="1" parent="1" source="i7xS8jpJTbWO4TMDxhl_-3" target="i7xS8jpJTbWO4TMDxhl_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="324" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7xS8jpJTbWO4TMDxhl_-9" value="View Reservations" style="curved=1;startArrow=none;endArrow=block;exitX=0.983750891317013;exitY=-0.012121142763080019;entryX=0.7045345133996286;entryY=1.0060606869784268;rounded=0;" edge="1" parent="1" source="i7xS8jpJTbWO4TMDxhl_-3" target="i7xS8jpJTbWO4TMDxhl_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7xS8jpJTbWO4TMDxhl_-10" value="Send Confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=0.9287655681145787;exitY=-0.0060605713815400095;entryX=0.9910481373469034;entryY=0.6326502367890912;rounded=0;" edge="1" parent="1" source="i7xS8jpJTbWO4TMDxhl_-2" target="i7xS8jpJTbWO4TMDxhl_-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7xS8jpJTbWO4TMDxhl_-11" value="Receive Reservation" style="curved=1;startArrow=none;endArrow=block;exitX=0.29800968712624604;exitY=1.0060606869784268;entryX=-0.004152546758237092;entryY=-0.001500020376883268;rounded=0;" edge="1" parent="1" source="i7xS8jpJTbWO4TMDxhl_-2" target="i7xS8jpJTbWO4TMDxhl_-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
