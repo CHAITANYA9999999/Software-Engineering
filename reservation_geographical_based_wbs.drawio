@@ -1,9 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T13:50:39.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.8" etag="4XaeGDbMgjg1Xi6MOp6t" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T13:56:11.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="dBcdE55KVps9yL2YAcUR" version="24.2.8" type="github">
   <diagram name="Page-1" id="foUpyz5Rv1200K6fPl8f">
-    <mxGraphModel>
+    <mxGraphModel dx="2345" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MLqzigVy_reqc0tkFaeo-1" value="Geographical Region" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="20" width="161" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-2" value="Infrastructure" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="321" y="134" width="148" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-3" value="Set up Server Infrastructure" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="381" width="215" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-4" value="Ensure Internet Connectivity" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="285" y="381" width="221" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-5" value="Integrate with Existing Systems" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="556" y="381" width="239" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-6" value="User Interface" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="133" width="151" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-7" value="Develop Web-Based Interface" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="845" y="381" width="225" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-8" value="Create Mobile Application Interface" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="381" width="270" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-9" value="Integrate with Point-of-Sale Systems" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="381" width="276" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-10" value="Database Management" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2035" y="103" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-11" value="Design Database Schema" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1767" y="381" width="191" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-12" value="Implement Data Security Measures" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="381" width="263" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-13" value="Set up Backup and Recovery Procedures" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2321" y="381" width="300" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.0008054934673427795;exitY=0.6244392220719709;entryX=0.5028558164029509;entryY=0.0012985951191670185;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-1" target="MLqzigVy_reqc0tkFaeo-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="78" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-15" value="Server Setup" style="curved=1;startArrow=none;endArrow=block;exitX=0.003051139212943412;exitY=0.7602626016788246;entryX=0.4996439024459484;entryY=0.009895960489908854;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-2" target="MLqzigVy_reqc0tkFaeo-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-16" value="Internet Connectivity" style="curved=1;startArrow=none;endArrow=block;exitX=0.5028558164029509;exitY=1.0009079494991817;entryX=0.4996500489938313;entryY=0.009895960489908854;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-2" target="MLqzigVy_reqc0tkFaeo-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-17" value="System Integration" style="curved=1;startArrow=none;endArrow=block;exitX=1.0026604935929582;exitY=0.7489938977790502;entryX=0.5004380357814134;entryY=0.009895960489908854;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-2" target="MLqzigVy_reqc0tkFaeo-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="676" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5013877916039887;exitY=1.0121212583599668;entryX=0.5014796983327298;entryY=-0.0007191335918098097;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-1" target="MLqzigVy_reqc0tkFaeo-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-19" value="Web Interface" style="curved=1;startArrow=none;endArrow=block;exitX=0.0029904700272920114;exitY=0.730402940979436;entryX=0.5020034790039063;entryY=0.009895960489908854;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-6" target="MLqzigVy_reqc0tkFaeo-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="958" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-20" value="Mobile Interface" style="curved=1;startArrow=none;endArrow=block;exitX=0.5014796983327298;exitY=0.9962593230190656;entryX=0.4989756831416377;entryY=0.009895960489908854;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-6" target="MLqzigVy_reqc0tkFaeo-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-21" value="POS Integration" style="curved=1;startArrow=none;endArrow=block;exitX=0.9999689266381674;exitY=0.7121744397828728;entryX=0.499320652173913;entryY=0.009895960489908854;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-6" target="MLqzigVy_reqc0tkFaeo-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1579" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0019700897406347;exitY=0.6212873917511217;entryX=0.49788694835844494;entryY=0.0019047691708519345;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-1" target="MLqzigVy_reqc0tkFaeo-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2140" y="78" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-23" value="Data Storage" style="curved=1;startArrow=none;endArrow=block;exitX=-0.0009858267647879465;exitY=0.7509974835363127;entryX=0.500000039944474;entryY=0.009895960489908854;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-10" target="MLqzigVy_reqc0tkFaeo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1863" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-24" value="Data Security" style="curved=1;startArrow=none;endArrow=block;exitX=0.49788694835844494;exitY=0.9996503194173177;entryX=0.5002139131379219;entryY=0.009895960489908854;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-10" target="MLqzigVy_reqc0tkFaeo-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqzigVy_reqc0tkFaeo-25" value="Backup and Recovery" style="curved=1;startArrow=none;endArrow=block;exitX=0.9967597234816779;exitY=0.7099579377516311;entryX=0.49989588419596354;entryY=0.009895960489908854;rounded=0;" edge="1" parent="1" source="MLqzigVy_reqc0tkFaeo-10" target="MLqzigVy_reqc0tkFaeo-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2471" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
