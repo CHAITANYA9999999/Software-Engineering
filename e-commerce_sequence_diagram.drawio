@@ -1,9 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T05:13:26.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.0" etag="wv2rh4UD6KzWayZkcpQ6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T05:15:27.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="SwPEptYc0OcBBAEdTEbr" version="24.3.0" type="github">
   <diagram name="Page-1" id="zhLPyL0t_WPGZIdcyF5_">
-    <mxGraphModel>
+    <mxGraphModel dx="1400" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vzd-GDisVainy8L2oSxR-1" value="Customer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-2" value="EcommercePlatform" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="275" y="20" width="162" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-3" value="PaymentGateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="489" y="20" width="150" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-4" value="Warehouse" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="689" y="20" width="150" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-5" value="Browse Products" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="vzd-GDisVainy8L2oSxR-1" target="vzd-GDisVainy8L2oSxR-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="236" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-6" value="Display Product Catalog" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="vzd-GDisVainy8L2oSxR-2" target="vzd-GDisVainy8L2oSxR-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="236" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-7" value="Add Product to Cart" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="vzd-GDisVainy8L2oSxR-1" target="vzd-GDisVainy8L2oSxR-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="236" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-8" value="Product Added to Cart" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="vzd-GDisVainy8L2oSxR-2" target="vzd-GDisVainy8L2oSxR-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="236" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-9" value="Proceed to Checkout" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="vzd-GDisVainy8L2oSxR-1" target="vzd-GDisVainy8L2oSxR-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="236" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-10" value="Process Payment" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="vzd-GDisVainy8L2oSxR-2" target="vzd-GDisVainy8L2oSxR-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-11" value="Payment Successful" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="vzd-GDisVainy8L2oSxR-3" target="vzd-GDisVainy8L2oSxR-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-12" value="Fulfill Order" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="vzd-GDisVainy8L2oSxR-2" target="vzd-GDisVainy8L2oSxR-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-13" value="Order Shipped" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="vzd-GDisVainy8L2oSxR-4" target="vzd-GDisVainy8L2oSxR-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzd-GDisVainy8L2oSxR-14" value="Order Shipped Notification" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="vzd-GDisVainy8L2oSxR-2" target="vzd-GDisVainy8L2oSxR-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="236" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
