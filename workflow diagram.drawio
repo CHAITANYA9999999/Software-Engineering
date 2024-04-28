@@ -1,9 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T16:37:20.180Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.0" etag="J2ek9JrAKm9XORYbZ1w5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-28T16:46:25.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="E3p60iZtli8uJtz9Dnss" version="24.3.0" type="github">
   <diagram name="Page-1" id="DQ0NL3z1l1yqtSFjFEHF">
-    <mxGraphModel>
+    <mxGraphModel dx="1750" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-1" value="Importing Libraries" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="165" y="20" width="151" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-2" value="Importing the Dataset" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="155" y="103" width="172" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-3" value="Splitting the Dataset" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="159" y="187" width="163" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-4" value="Feature Scaling" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="178" y="270" width="125" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-5" value="Training the Kernel SVM Model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="125" y="354" width="232" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-6" value="Evaluating Performance Before Hyperparameter Tuning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="36" y="437" width="410" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-7" value="Hyperparameter Tuning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="149" y="520" width="183" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-8" value="Training the Kernel SVM Model with Hyperparameter Tuning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="604" width="442" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-9" value="Evaluating Performance After Hyperparameter Tuning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="41" y="687" width="399" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-10" value="Data Visualization: Confusion Matrix" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="103" y="771" width="275" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-11" value="Data Visualization: ROC Curve" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="126" y="854" width="230" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.501697060288183;exitY=1.0121212583599668;entryX=0.49858288432276526;entryY=0.012121258359966856;rounded=0;" edge="1" parent="1" source="MDEuXfl9NxT2jUe6Fcr2-1" target="MDEuXfl9NxT2jUe6Fcr2-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49858288432276526;exitY=1.0242425167199336;entryX=0.5015721233344517;entryY=-0.006060513583096591;rounded=0;" edge="1" parent="1" source="MDEuXfl9NxT2jUe6Fcr2-2" target="MDEuXfl9NxT2jUe6Fcr2-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5015721233344517;exitY=1.0060607447768704;entryX=0.502050048828125;entryY=0.006060744776870265;rounded=0;" edge="1" parent="1" source="MDEuXfl9NxT2jUe6Fcr2-3" target="MDEuXfl9NxT2jUe6Fcr2-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.502050048828125;exitY=1.0181820031368372;entryX=0.49894937975653286;entryY=-0.012121027166193182;rounded=0;" edge="1" parent="1" source="MDEuXfl9NxT2jUe6Fcr2-4" target="MDEuXfl9NxT2jUe6Fcr2-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49894937975653286;exitY=1.0000002311937737;entryX=0.4994055026915015;entryY=2.3119377367424243e-7;rounded=0;" edge="1" parent="1" source="MDEuXfl9NxT2jUe6Fcr2-5" target="MDEuXfl9NxT2jUe6Fcr2-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4994055026915015;exitY=1.0121214895537405;entryX=0.5014003065765881;entryY=0.01212148955374053;rounded=0;" edge="1" parent="1" source="MDEuXfl9NxT2jUe6Fcr2-6" target="MDEuXfl9NxT2jUe6Fcr2-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5014003065765881;exitY=1.0242427479137073;entryX=0.4994485432206236;entryY=-0.006060282389322917;rounded=0;" edge="1" parent="1" source="MDEuXfl9NxT2jUe6Fcr2-7" target="MDEuXfl9NxT2jUe6Fcr2-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4994485432206236;exitY=1.006060975970644;entryX=0.5006422458734727;entryY=0.006060975970643939;rounded=0;" edge="1" parent="1" source="MDEuXfl9NxT2jUe6Fcr2-8" target="MDEuXfl9NxT2jUe6Fcr2-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5006422458734727;exitY=1.0181822343306108;entryX=0.5009318403764205;entryY=-0.012120795972419508;rounded=0;" edge="1" parent="1" source="MDEuXfl9NxT2jUe6Fcr2-9" target="MDEuXfl9NxT2jUe6Fcr2-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDEuXfl9NxT2jUe6Fcr2-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5009318403764205;exitY=1.0000004623875474;entryX=0.4989402439283288;entryY=4.6238754734848486e-7;rounded=0;" edge="1" parent="1" source="MDEuXfl9NxT2jUe6Fcr2-10" target="MDEuXfl9NxT2jUe6Fcr2-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
